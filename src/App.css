@@ -1,7 +1,49 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
+.App{
+  text-align: center;
+  height: 100vh;
+  background-color:#282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
+.clock{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#59342C,#D43917);
+  height: 180px;
+  width: 350px;
+  color: #06f1f6;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 10px;
+}
+.clock section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+.clock section p{
+  font-size: 2rem;
+
+}
+.clock section small{
+  /* font-size: 0.1rem; */
+  text-shadow: none;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
